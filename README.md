@@ -45,6 +45,7 @@ Note how the input_shape has to be defined according to the expected input of yo
 Also the name of the output layer has to be defined correctly. (*output_node* in my case)
 
 **Finding the output_array name**
-This can pose a difficulty, as when using standard layers in Keras, their names are not obvious. Therefore i have added a line in the code of *keras_to_tensorflow.py* that will print out the name of the output layer:
+
+This can pose a difficulty, as when using standard layers in Keras, the layers names are not obvious. Therefore i have added a line in the code of *keras_to_tensorflow.py* that will print out the name of the output layer:
 
 
