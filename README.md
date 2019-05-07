@@ -57,3 +57,7 @@ If everything went well, you now should have converted the Keras model.hdf5 file
 **Please note:**
 NOT every TF layer is available in TFLite. Please refrain from using complex layers such as GlobalMaxPooling2D().
 
+Supported layers of TFLite can be found here:
+
+https://www.tensorflow.org/lite/guide/ops_compatibility 
+
