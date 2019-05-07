@@ -11,4 +11,4 @@ The starting point of this conversion is a Keras for Tensorflow - trained neural
 
 Use the attached tool keras_to_tensorflow.py:
 
---> 	python keras_to_tensorflow.py -input_model model.h5 –output_model outputmodel_path.pb
+--> 	*python keras_to_tensorflow.py -input_model model.h5 –output_model outputmodel_path.pb*
