@@ -48,5 +48,5 @@ Also the name of the output layer has to be defined correctly. (*output_node* in
 
 This can pose a difficulty, as when using standard layers in Keras, the layers names are not obvious. Therefore i have added a line in the code of *keras_to_tensorflow.py* that will print out the name of the output layer:
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![image](https://github.com/moritzzzzz/Keras_to_TFLite_for_Android/blob/master/output%20node.JPG)
 
