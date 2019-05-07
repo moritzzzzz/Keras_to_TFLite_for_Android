@@ -19,7 +19,7 @@ Now we have the Keras-trained model in a frozen Tensorflow format .pb.
 
 I could not get it to run under Windows. Therefore run it on Linux.
 
-**My setup: **
+**My setup:**
 
 - Ubuntu 18.04
 - python 3.6  
@@ -34,12 +34,12 @@ I could not get it to run under Windows. Therefore run it on Linux.
  
  Below command should be one not-interrupted command!
  
- */home/moritz/.local/bin/toco --input_file=Desktop/model.pb 
- --output_file=Desktop/model.tflite 
- --input_format=TENSORFLOW_GRAPHDEF 
- --output_format=TFLITE --input_shape=1,299,299,3                    
- --input_array=input_1 --output_array=output_node                    
- --inference_type=FLOAT *
+ */home/moritz/.local/bin/toco --input_file=Desktop/model.pb* 
+ *--output_file=Desktop/model.tflite* 
+ *--input_format=TENSORFLOW_GRAPHDEF* 
+ *--output_format=TFLITE --input_shape=1,299,299,3*                    
+ *--input_array=input_1 --output_array=output_node*                    
+ *--inference_type=FLOAT*
 
 Note how the input_shape has to be defined according to the expected input of your model, as well as the name of the input layer. (*input_1* in my case)
 Also the name of the output layer has to be defined correctly. (*output_node* in my case)
