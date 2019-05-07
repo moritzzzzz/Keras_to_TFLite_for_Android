@@ -50,3 +50,10 @@ This can pose a difficulty, as when using standard layers in Keras, the layers n
 
 ![image](https://github.com/moritzzzzz/Keras_to_TFLite_for_Android/blob/master/output%20node.JPG)
 
+### Model in TFLite format
+
+If everything went well, you now should have converted the Keras model.hdf5 file to a TFLite model.tflite
+
+**Please note:**
+NOT every TF layer is available in TFLite. Please refrain from using complex layers such as GlobalMaxPooling2D().
+
